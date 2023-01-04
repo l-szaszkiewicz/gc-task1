@@ -1,0 +1,11 @@
+.product_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+    padding: 5em 0;
+}
+
+.no_data {
+    font-size: 2em;
+    margin: 1em 0;
+}

@@ -1,0 +1,32 @@
+.sort_wrapper {
+    margin-top: 5rem;
+    display: flex;
+    column-gap: 2ch;
+}
+
+.asc,
+.desc {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    margin: 0 .2em;
+    cursor: pointer;
+}
+
+.asc {
+    border-bottom: 15px solid var(--c-blue);
+}
+
+.desc {
+    border-top: 15px solid var(--c-blue);
+}
+
+.prize,
+.name {
+    display: flex;
+    align-items: center;
+
+    p {
+        font-size: 1.2em;
+        margin-right: .5em;
+    }
+}

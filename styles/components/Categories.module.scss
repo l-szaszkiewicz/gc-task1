@@ -1,0 +1,15 @@
+.cat_list {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 2em;
+    z-index: 200;
+    background: white;
+
+    @media (max-width: 800px) {
+        flex-wrap: wrap;
+    }
+}

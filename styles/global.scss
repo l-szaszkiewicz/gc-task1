@@ -1,0 +1,35 @@
+@import './utils/variables';
+
+html {
+  font-size: .83vw;
+
+  @media (min-width: 1920px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 2vw;
+  }
+}
+
+body {
+  font-family: "Raleway";
+  overflow: hidden overlay;
+  overflow-y: overlay;
+
+  &.no-overflow {
+    overflow: hidden;
+  }
+}
+
+main {
+  position: relative;
+  z-index: 10;
+  padding: 4em;
+  color: darkblue;
+}
+
+sub {
+  font-size: .8em;
+  margin-left: .5ch;
+}
